@@ -1,0 +1,36 @@
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+  workflow_dispatch:      # Allows manual triggering from Actions tab
+
+jobs:
+  update-readme:
+    name: Refresh README Stats
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Generate GitHub Stats
+        run: |
+          echo "Refreshing stats and streaks..."
+          curl -s "https://github-readme-stats.vercel.app/api?username=NitheshChakaravarthySeelan&count_private=true" > /dev/null
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=NitheshChakaravarthySeelan" > /dev/null
+          curl -s "https://leetcard.jacoblin.cool/BfYWophF" > /dev/null
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "auto-update README stats" || echo "No changes to commit"
+          git push
+          
