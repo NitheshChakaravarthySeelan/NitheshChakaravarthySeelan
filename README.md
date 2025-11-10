@@ -110,7 +110,7 @@ I love working at the intersection of <b>systems programming, distributed archit
 <h3 align="center">LeetCode Progress</h3>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Nithesh Chakaravarthy Seelan?theme=tokyonight&ext=contest" />
+  <img src="https://leetcard.jacoblin.cool/BfYWophF?theme=tokyonight&ext=contest" />
 </p>
 
 ---
