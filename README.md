@@ -28,12 +28,16 @@ I love working at the intersection of <b>systems programming, distributed archit
 - Implementing **RAG systems** and embedding-based AI retrieval  
 - Obsessed with **efficiency**, **reliability**, and **scalable design**
 
+<p align="center">
+With experience at leading companies like Amazon and HCL, I've delivered high-impact solutions, from modernizing payments infrastructure to developing AI-driven resume analysis platforms.
+</p>
+
 ---
 
 <h3 align="center">⚙️ Tech Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,java,typescript,go" /><br/>
+  <img src="https://skillicons.dev/icons?i=c,python,java,typescript,rust" /><br/>
   <img src="https://skillicons.dev/icons?i=fastapi,nodejs,spring,langchain,pytorch,opencv" /><br/>
   <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,linux,prometheus" /><br/>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" /><br/>
@@ -47,10 +51,10 @@ I love working at the intersection of <b>systems programming, distributed archit
 #### [Ecommerce Microservices System](https://github.com/NitheshChakaravarthySeelan/ecommerce-platform)
 > *Distributed architecture using Rust, Python, and TypeScript.*
 
-- Event-driven with **Kafka**, **Redis**, **Istio**, and **Kubernetes**  
-- Built inventory-read/write microservices in **Rust**  
-- End-to-end secure communication with custom **JWT TCP layer**
-
+- Architected an asynchronous service restructuring, reducing P99 latency by **3.1x** and boosting throughput by **45%** by enhancing concurrency.
+- Designed a resilient Kafka-based saga orchestrator, eliminating inter-service race conditions.
+- Accelerated session data retrieval through strategic Redis caching, leading to a **~70%** reduction in P50 latency and attaining **92%** cache-hit rate.
+- Developed an autonomous shopping system, resulting in **>90%** successful agentic checkouts.
 ---
 
 #### [P2P File Distribution (QUIC)](https://github.com/NitheshChakaravarthySeelan/p2p-quic)
@@ -64,17 +68,15 @@ I love working at the intersection of <b>systems programming, distributed archit
 #### [MiniDB Engine](https://github.com/NitheshChakaravarthySeelan/minidb)
 > *Custom WAL-based embedded DBMS with B+ Tree indexing.*
 
-- Implements **ACID**, **replication**, and **buffer-pool optimization**  
-- Achieved 30% lower write latency and faster crash recovery  
-
+- Implements **ACID**, **replication**, and **buffer-pool optimization**.
+- Yielded **40%** faster crash recovery through log-based replay and **30%** lower write latency via optimized buffered I/O, significantly enhancing durability and performance.
 ---
 
 #### [Cyber Threat AI Analysis](https://github.com/NitheshChakaravarthySeelan/cyber-threat-ai)
 > *Retrieval-Augmented Generative AI for Cybersecurity Intelligence.*
 
-- Integrated **LangChain**, **FAISS**, and **LLMs**  
-- Increased extraction accuracy by 25% and throughput by 35%
-
+- Trained a Generative AI model to extract and classify ATT&CK tactics and techniques from cyber threat intelligence reports.
+- Increased detection accuracy by **25%** and processing speed by **35%**.
 ---
 
 <h3 align="center">GitHub Stats</h3>
